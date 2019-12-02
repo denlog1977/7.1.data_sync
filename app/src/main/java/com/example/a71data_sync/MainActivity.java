@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
                 Toast.makeText(MainActivity.this, "Текущее время: " + Integer.toString(currentHour), Toast.LENGTH_SHORT).show();
 
-                startActivity(intent);            }
+                startActivity(intent);
+            }
+
         });
 
         Button button1 = findViewById(R.id.button1);
