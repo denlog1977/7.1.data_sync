@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_SYNC);
 
                 int currentHour = new Date().getHours();
+
                 if (currentHour > 14 && currentHour <= 15) {
                     intent.setData(Uri.parse("http://afternoon"));
                 } else if (currentHour > 6 && currentHour <= 14) {
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     intent.setData(Uri.parse("http://evening"));
                 }
+
                 startActivity(intent);            }
         });
     }
