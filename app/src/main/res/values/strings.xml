@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">7.1.data_sync</string>
     <string name="sync">Синхронизация</string>
+    <string name="Morning">Утро</string>
+    <string name="Afternoon">Полдень</string>
+    <string name="Evening">Вечер</string>
 </resources>
